@@ -25,12 +25,12 @@
 }
 
 .logo{
-    color: #ff7200;
+    color: #00ff00;
     font-size: 35px;
     font-family: Arial;
     padding-left:  20px;
     float: left;
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
 
@@ -63,51 +63,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
-}
-
-.search{
-    width: 330px;
-    float: left;
-    float: inline-end;
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border:  1px solid #ff7200;
-    margin-top: 13px;
-    color: #ffff;
-    border-right: none;
-    font-size: 13px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
-    margin-top: 13px;
-    color: #ffff;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-}
-
-.btn:focus{
-    outline: none;
-}
-
-.btn:hover{
-    cursor: pointer;
-}
-
-.srch:focus{
-    outline: none;
+    color: #00ff00;
 }
 
 .content{
@@ -135,10 +91,14 @@ ul li a:hover{
     margin-top: 5%;
 }
 
+.content h2{
+    padding-left: 20px;
+}
+
 .content .cn{
     width: 90px;
     height: 30px;
-    background: #ff7200;
+    background: #00ff00;
     border: none;
     margin-top: -50px;
     margin-bottom: 10px;
@@ -160,5 +120,10 @@ ul li a:hover{
 }
 
 .content span{
-    color: #ff7200;
+    color: #00ff00;
+}
+
+.ysektionen{
+    padding-top: 20px;
+    float: right;
 }

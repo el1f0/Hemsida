@@ -4,6 +4,11 @@
     box-sizing: border-box 
 }
 
+.ysektionen{
+    padding-top: 20px;
+    float: right;
+}
+
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(snö.jpg);
@@ -25,12 +30,12 @@
 }
 
 .logo{
-    color: #ff7200;
+    color: #00eeff;
     font-size: 35px;
     font-family: Arial;
     padding-left:  20px;
     float: left;
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
 
@@ -63,51 +68,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
-}
-
-.search{
-    width: 330px;
-    float: left;
-    float: inline-end;
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border:  1px solid #ff7200;
-    margin-top: 13px;
-    color: #ffff;
-    border-right: none;
-    font-size: 13px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
-    margin-top: 13px;
-    color: #ffff;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-}
-
-.btn:focus{
-    outline: none;
-}
-
-.btn:hover{
-    cursor: pointer;
-}
-
-.srch:focus{
-    outline: none;
+    color: #00eeff;
 }
 
 .content{
@@ -124,11 +85,20 @@ ul li a:hover{
     padding-left: 20px;
     margin-bottom: 15px;
     letter-spacing: 2px;
-    margin-top: 5%;
+    margin-top: 3%;
+}
+
+.par{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 0.8px;
+    line-height: 20px;
 }
 
 .collapsible{
-    background: #eee;
+    background: #b0faff;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -140,7 +110,7 @@ ul li a:hover{
 }
 
 .active, .collapsible:hover{
-    background: #ccc;
+    background: #84f7ff;
 }
 
 .collapsible:after{
@@ -160,7 +130,7 @@ ul li a:hover{
     max-height: 0px;
     color: black;
     overflow: hidden;
-    background: #f1f1f1;
+    background: #c4fbff;
     transition: max-height 0.2s ease-out;
     width: 70%;
 
