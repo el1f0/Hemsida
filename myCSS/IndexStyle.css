@@ -11,7 +11,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(snö.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/landscape.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -30,7 +30,7 @@
 }
 
 .logo{
-    color: #00eeff;
+    color: #fff200;
     font-size: 35px;
     font-family: Arial;
     padding-left:  20px;
@@ -68,7 +68,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #00eeff;
+    color: #fff200;
 }
 
 .content{
@@ -79,16 +79,7 @@ ul li a:hover{
     position: relative;
 }
 
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-    margin-top: 3%;
-}
-
-.par{
+.content .par{
     margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 25px;
@@ -97,42 +88,15 @@ ul li a:hover{
     line-height: 20px;
 }
 
-.collapsible{
-    background: #b0faff;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 70%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-
-.active, .collapsible:hover{
-    background: #84f7ff;
-}
-
-.collapsible:after{
-    content: '\02795';
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after{
-    content: "\2796";
-}
-
-.collapsiblecontent{
-    padding: 0 18px;
-    max-height: 0px;
-    color: black;
-    overflow: hidden;
-    background: #c4fbff;
-    transition: max-height 0.2s ease-out;
-    width: 70%;
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-top: 5%;
 
 }
 
+.content span{
+    color: #fff200;
+}

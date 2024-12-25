@@ -4,9 +4,14 @@
     box-sizing: border-box 
 }
 
+.ysektionen{
+    padding-top: 20px;
+    float: right;
+}
+
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(östersund.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/snö.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -25,7 +30,7 @@
 }
 
 .logo{
-    color: #00ff00;
+    color: #00eeff;
     font-size: 35px;
     font-family: Arial;
     padding-left:  20px;
@@ -63,7 +68,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #00ff00;
+    color: #00eeff;
 }
 
 .content{
@@ -74,7 +79,16 @@ ul li a:hover{
     position: relative;
 }
 
-.content .par{
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    margin-top: 3%;
+}
+
+.par{
     margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 25px;
@@ -83,47 +97,42 @@ ul li a:hover{
     line-height: 20px;
 }
 
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    letter-spacing: 2px;
-    margin-top: 5%;
-}
-
-.content h2{
-    padding-left: 20px;
-}
-
-.content .cn{
-    width: 90px;
-    height: 30px;
-    background: #00ff00;
-    border: none;
-    margin-top: -50px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 15px;
-    border-radius: 10px;
+.collapsible{
+    background: #b0faff;
+    color: #444;
     cursor: pointer;
-    transition: 0.4s;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
 }
 
-.content .cn a{
-    text-decoration: none;
-    color: #000;
-    transform: .3s ease;
+.active, .collapsible:hover{
+    background: #84f7ff;
 }
 
-.cn:hover{
-    background: #ffff;
-}
-
-.content span{
-    color: #00ff00;
-}
-
-.ysektionen{
-    padding-top: 20px;
+.collapsible:after{
+    content: '\02795';
+    font-size: 13px;
+    color: white;
     float: right;
+    margin-left: 5px;
 }
+
+.active:after{
+    content: "\2796";
+}
+
+.collapsiblecontent{
+    padding: 0 18px;
+    max-height: 0px;
+    color: black;
+    overflow: hidden;
+    background: #c4fbff;
+    transition: max-height 0.2s ease-out;
+    width: 70%;
+
+}
+

@@ -11,7 +11,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(landscape.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/linköping.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -30,7 +30,7 @@
 }
 
 .logo{
-    color: #fff200;
+    color: #ff00ff;
     font-size: 35px;
     font-family: Arial;
     padding-left:  20px;
@@ -68,7 +68,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #fff200;
+    color: #ff00ff;
 }
 
 .content{
@@ -80,7 +80,6 @@ ul li a:hover{
 }
 
 .content .par{
-    margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
@@ -94,9 +93,14 @@ ul li a:hover{
     padding-left: 20px;
     letter-spacing: 2px;
     margin-top: 5%;
+    padding-bottom: 20px;
 
 }
 
+.content h3{
+    padding-left: 20px;
+}
+
 .content span{
-    color: #fff200;
+    color: #ff00ff;
 }

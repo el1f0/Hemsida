@@ -4,14 +4,9 @@
     box-sizing: border-box 
 }
 
-.ysektionen{
-    padding-top: 20px;
-    float: right;
-}
-
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(linköping.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/östersund.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -30,7 +25,7 @@
 }
 
 .logo{
-    color: #ff00ff;
+    color: #00ff00;
     font-size: 35px;
     font-family: Arial;
     padding-left:  20px;
@@ -68,7 +63,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff00ff;
+    color: #00ff00;
 }
 
 .content{
@@ -80,6 +75,7 @@ ul li a:hover{
 }
 
 .content .par{
+    margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
@@ -93,14 +89,41 @@ ul li a:hover{
     padding-left: 20px;
     letter-spacing: 2px;
     margin-top: 5%;
-    padding-bottom: 20px;
-
 }
 
-.content h3{
+.content h2{
     padding-left: 20px;
 }
 
+.content .cn{
+    width: 90px;
+    height: 30px;
+    background: #00ff00;
+    border: none;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transform: .3s ease;
+}
+
+.cn:hover{
+    background: #ffff;
+}
+
 .content span{
-    color: #ff00ff;
+    color: #00ff00;
+}
+
+.ysektionen{
+    padding-top: 20px;
+    float: right;
 }
