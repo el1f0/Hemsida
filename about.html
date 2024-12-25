@@ -15,6 +15,7 @@
                 <ul>   
                     <li> <a href="index.html">Hem</a></li>
                     <li> <a href="about.html">Om mig</a></li>
+                    <li> <a href="projects.html">Mina projekt</a></li>
                     <li> <a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
@@ -46,45 +47,12 @@
             <h2>
                 Mina projekt
             </h2>
-            <button type="button" class="collapsible">Snake</button>
-            <div class="collapsiblecontent">
-                <p>
-                    <br> SnakeSnakeSnake
-                    <br> SnakeSnakeSnake
-                </p>
-            </div>
-            <button type="button" class="collapsible">Minesweeper</button>
-            <div class="collapsiblecontent">
-                <p>
-                    <br> MinesweeperMinesweeperMinesweeper
-                    <br> MinesweeperMinesweeperMinesweeper
-                </p>
-            </div>
-            <button type="button" class="collapsible">2D Platformer</button>
-            <div class="collapsiblecontent">
-                <p>
-                    <br> 2DPlatformer2DPlatformer2DPlatformer
-                    <br> 2DPlatformer2DPlatformer2DPlatformer
-                </p>
-            </div>
-
+            <p class="par">
+                Jag arbetar med flera olika projekt samtidigt, vissa är färdiga och andra kan vara pågående. Dessa är projekt som jag
+                <br> aktivt arbetar med, eller sådana som uppdatteras med jämna mellanrum.
+            </p>
+            <button class="cn"><a href="projects.html">Läs mer</a></button>
         </div>
     </div>
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            }
-          });
-        }
-    </script>
 </body>
 </html>

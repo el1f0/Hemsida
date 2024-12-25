@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elias Forssén</title>
+    <link rel="stylesheet" href="ProjectStyle.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Elias Forssén</h2>
+            </div>
+
+            <div class="menu">
+                <ul>   
+                    <li> <a href="index.html">Hem</a></li>
+                    <li> <a href="about.html">Om mig</a></li>
+                    <li> <a href="projects.html">Mina projekt</a></li>
+                    <li> <a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type to text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>
+                Mina projekt
+            </h1>
+            <button type="button" class="collapsible">Snake</button>
+            <div class="collapsiblecontent">
+                <p>
+                    <br> 
+                    SnakeSnakeSnake
+                    <br> SnakeSnakeSnake
+                    
+                    <br><br>
+                </p>
+            </div>
+            <button type="button" class="collapsible">Minesweeper</button>
+            <div class="collapsiblecontent">
+                <p>
+                    <br> 
+                    MinesweeperMinesweeperMinesweeper
+                    <br> MinesweeperMinesweeperMinesweeper
+
+                    <br><br>
+                </p>
+            </div>
+            <button type="button" class="collapsible">2D Platformer</button>
+            <div class="collapsiblecontent">
+                <p>
+                    <br> 
+                    2DPlatformer2DPlatformer2DPlatformer
+                    <br> 2DPlatformer2DPlatformer2DPlatformer
+
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
+</body>
+</html>
