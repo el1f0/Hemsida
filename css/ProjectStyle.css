@@ -133,6 +133,23 @@ ul li a:hover{
     background: #c4fbff;
     transition: max-height 0.2s ease-out;
     width: 70%;
-
 }
 
+
+.collapsiblecontent .features{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.collapsiblecontent li{
+    padding-top: 8px;
+}
+
+.collapsiblecontent h3{
+    margin-top: 15px;
+}
+
+.collapsiblecontent .linktogame{
+    margin-top: 10px;
+    margin-left: 10px;
+}
