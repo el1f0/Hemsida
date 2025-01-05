@@ -153,3 +153,11 @@ ul li a:hover{
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.snakegameplay{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
